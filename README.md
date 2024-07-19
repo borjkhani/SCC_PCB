@@ -1,4 +1,4 @@
 # SCC_PCB
 ## Introduction
 
-you can find the code [here](Control - Test 7/FT1.ipynb)
+you can find the code [here](https://github.com/borjkhani/SCC_PCB/blob/main/Control%20-%20Test%207/FT1.ipynb)
