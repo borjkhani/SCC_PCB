@@ -1,0 +1,2 @@
+node_type_id spatial_size model_type model_template dynamics_params
+100 1.0 virtual lgnmodel:sON_TF8 sON_TF8.json

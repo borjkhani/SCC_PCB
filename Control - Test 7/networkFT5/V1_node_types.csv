@@ -1,0 +1,17 @@
+node_type_id ei morphology model_processing pop_name rotation_angle_yaxis Int model_type location dynamics_params rotation_angle_zaxis Sig model_template rotation_angle_xaxis
+100 2e1 Scnn1a_473845048_m.swc aibs_perisomatic Scnn1a -3.14 P2 biophysical L6 472363762_fit.json -3.74 1.45 ctdb:Biophys1.hoc 3.74
+101 2i1 Pvalb_470522102_m.swc aibs_perisomatic PV1 -3.14 P2 biophysical L6 472912177_fit.json -3.74 4.5 ctdb:Biophys1.hoc 3.74
+102 2i1 Sst_513556739_m.swc aibs_perisomatic Sst -3.14 P2 biophysical L6 323452196_fit.json -3.74 4 ctdb:Biophys1.hoc 3.74
+103 2i1 Htr3a_492100857_m.swc aibs_perisomatic VIP -3.14 P2 biophysical L6 475585413_fit.json -3.74 2 ctdb:Biophys1.hoc 3.74
+104 2e1 Scnn1a_473845048_m.swc aibs_perisomatic Scnn1a -3.14 P2 biophysical L5 472363762_fit.json -3.74 1.45 ctdb:Biophys1.hoc 3.74
+105 2i1 Pvalb_470522102_m.swc aibs_perisomatic PV1 -3.14 P2 biophysical L5 472912177_fit.json -3.74 4.5 ctdb:Biophys1.hoc 3.74
+106 2i1 Sst_513556739_m.swc aibs_perisomatic Sst -3.14 P2 biophysical L5 323452196_fit.json -3.74 4 ctdb:Biophys1.hoc 3.74
+107 2i1 Htr3a_492100857_m.swc aibs_perisomatic VIP -3.14 P2 biophysical L5 475585413_fit.json -3.74 2 ctdb:Biophys1.hoc 3.74
+108 2e1 Scnn1a_473845048_m.swc aibs_perisomatic Scnn1a -3.14 P2 biophysical L4 472363762_fit.json -3.74 1.45 ctdb:Biophys1.hoc 3.74
+109 2i1 Pvalb_470522102_m.swc aibs_perisomatic PV1 -3.14 P2 biophysical L4 472912177_fit.json -3.74 4.5 ctdb:Biophys1.hoc 3.74
+110 2i1 Sst_513556739_m.swc aibs_perisomatic Sst -3.14 P2 biophysical L4 323452196_fit.json -3.74 4 ctdb:Biophys1.hoc 3.74
+111 2i1 Htr3a_492100857_m.swc aibs_perisomatic VIP -3.14 P2 biophysical L4 475585413_fit.json -3.74 2 ctdb:Biophys1.hoc 3.74
+112 2e1 Scnn1a_473845048_m.swc aibs_perisomatic Scnn1a -3.14 P2 biophysical L2 472363762_fit.json -3.74 1.45 ctdb:Biophys1.hoc 3.74
+113 2i1 Pvalb_470522102_m.swc aibs_perisomatic PV1 -3.14 P2 biophysical L2 472912177_fit.json -3.74 4.5 ctdb:Biophys1.hoc 3.74
+114 2i1 Sst_513556739_m.swc aibs_perisomatic Sst -3.14 P2 biophysical L2 323452196_fit.json -3.74 4 ctdb:Biophys1.hoc 3.74
+115 2i1 Htr3a_492100857_m.swc aibs_perisomatic VIP -3.14 P2 biophysical L2 475585413_fit.json -3.74 2 ctdb:Biophys1.hoc 3.74

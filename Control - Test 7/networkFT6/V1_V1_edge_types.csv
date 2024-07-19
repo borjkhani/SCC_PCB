@@ -1,0 +1,158 @@
+edge_type_id target_query source_query dynamics_params weight_function syn_weight weight_sigma distance_range target_sections model_template delay
+100 location=='L2'&ei=='2e1' location=='L2'&ei=='2e1' ExcToExc.json gaussianLL_Inter_Layer 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.6
+101 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+102 location=='L2'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+103 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+104 location=='L2'&pop_name=='PV1'&ei=='2i1' location=='L2'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.6
+105 location=='L2'&pop_name=='Scnn1a'&ei=='2e1' location=='L2'&pop_name=='PV1'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 0.9
+106 location=='L2'&pop_name=='VIP'&ei=='2i1' location=='L2'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+107 location=='L2'&pop_name=='VIP'&ei=='2i1' location=='L2'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+108 location=='L2'&pop_name=='PV1'&ei=='2i1' location=='L2'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+109 location=='L2'&pop_name=='Scnn1a'&ei=='2e1' location=='L2'&pop_name=='Sst'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+110 location=='L2'&pop_name=='Scnn1a'&ei=='2e1' location=='L2'&pop_name=='VIP'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+111 location=='L2'&pop_name=='Sst'&ei=='2i1' location=='L2'&pop_name=='VIP'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+112 location=='L4'&ei=='2e1' location=='L4'&ei=='2e1' ExcToExc.json gaussianLL_Inter_Layer 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.3
+113 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 0.9
+114 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+115 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+116 location=='L4'&pop_name=='PV1'&ei=='2i1' location=='L4'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.3
+117 location=='L4'&pop_name=='Scnn1a'&ei=='2e1' location=='L4'&pop_name=='PV1'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 0.6
+118 location=='L4'&pop_name=='VIP'&ei=='2i1' location=='L4'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 0.9
+119 location=='L4'&pop_name=='VIP'&ei=='2i1' location=='L4'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.2
+120 location=='L4'&pop_name=='PV1'&ei=='2i1' location=='L4'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.2
+121 location=='L4'&pop_name=='Scnn1a'&ei=='2e1' location=='L4'&pop_name=='Sst'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.2
+122 location=='L4'&pop_name=='Scnn1a'&ei=='2e1' location=='L4'&pop_name=='VIP'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.2
+123 location=='L4'&pop_name=='Sst'&ei=='2i1' location=='L4'&pop_name=='VIP'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.2
+124 location=='L5'&ei=='2e1' location=='L5'&ei=='2e1' ExcToExc.json gaussianLL_Inter_Layer 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+125 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.1
+126 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+127 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+128 location=='L5'&pop_name=='PV1'&ei=='2i1' location=='L5'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+129 location=='L5'&pop_name=='Scnn1a'&ei=='2e1' location=='L5'&pop_name=='PV1'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 0.8
+130 location=='L5'&pop_name=='VIP'&ei=='2i1' location=='L5'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.1
+131 location=='L5'&pop_name=='VIP'&ei=='2i1' location=='L5'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+132 location=='L5'&pop_name=='PV1'&ei=='2i1' location=='L5'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+133 location=='L5'&pop_name=='Scnn1a'&ei=='2e1' location=='L5'&pop_name=='Sst'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.4
+134 location=='L5'&pop_name=='Scnn1a'&ei=='2e1' location=='L5'&pop_name=='VIP'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.4
+135 location=='L5'&pop_name=='Sst'&ei=='2i1' location=='L5'&pop_name=='VIP'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+136 location=='L6'&ei=='2e1' location=='L6'&ei=='2e1' ExcToExc.json gaussianLL_Inter_Layer 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.8
+137 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+138 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+139 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Inter_Layer 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+140 location=='L6'&pop_name=='PV1'&ei=='2i1' location=='L6'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.8
+141 location=='L6'&pop_name=='Scnn1a'&ei=='2e1' location=='L6'&pop_name=='PV1'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 1.1
+142 location=='L6'&pop_name=='VIP'&ei=='2i1' location=='L6'&pop_name=='PV1'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+143 location=='L6'&pop_name=='VIP'&ei=='2i1' location=='L6'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+144 location=='L6'&pop_name=='PV1'&ei=='2i1' location=='L6'&pop_name=='Sst'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+145 location=='L6'&pop_name=='Scnn1a'&ei=='2e1' location=='L6'&pop_name=='Sst'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+146 location=='L6'&pop_name=='Scnn1a'&ei=='2e1' location=='L6'&pop_name=='VIP'&ei=='2i1' InhToExc.json gaussianLL_Inter_Layer 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+147 location=='L6'&pop_name=='Sst'&ei=='2i1' location=='L6'&pop_name=='VIP'&ei=='2i1' InhToInh.json gaussianLL_Inter_Layer 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+148 location=='L4'&ei=='2e1' location=='L2'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.6
+149 location=='L5'&ei=='2e1' location=='L2'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.0007 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.8
+150 location=='L6'&ei=='2e1' location=='L2'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 4.9
+151 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.006 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+152 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.00375 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+153 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+154 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+155 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+156 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+157 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.5
+158 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.8
+159 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.8
+160 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+161 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+162 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 4.8
+163 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+164 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+165 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 4.8
+166 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.2
+167 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+168 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.5
+169 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.6
+170 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.8
+171 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.9
+172 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.5
+173 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+174 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 4.8
+175 location=='L4'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+176 location=='L4'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+177 location=='L4'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 0.9
+178 location=='L5'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0048 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 1.1
+179 location=='L5'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0048 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+180 location=='L5'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 9.599999999999999e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+181 location=='L6'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 4.2
+182 location=='L6'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 4.8
+183 location=='L6'&ei=='2e1' location=='L2'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 4.8
+184 location=='L2'&ei=='2e1' location=='L4'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.0021 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 2.3
+185 location=='L5'&ei=='2e1' location=='L4'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00175 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.5
+186 location=='L6'&ei=='2e1' location=='L4'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00175 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.9
+187 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.9
+188 location=='L2'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.2
+189 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.2
+190 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.1
+191 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+192 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+193 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2e1' ExcToInh.json NULL 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+194 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2e1' ExcToInh.json NULL 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.8
+195 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2e1' ExcToInh.json NULL 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.8
+196 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.2
+197 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+198 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.8
+199 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.2
+200 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+201 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.8
+202 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.6
+203 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.1
+204 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+205 location=='L2'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.2
+206 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.4
+207 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.8
+208 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.3
+209 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.5
+210 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.9
+211 location=='L2'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0048 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 1.6
+212 location=='L2'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0048 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 2.2
+213 location=='L2'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 9.599999999999999e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 2.2
+214 location=='L5'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 0.8
+215 location=='L5'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.4
+216 location=='L5'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.4
+217 location=='L6'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 1.2
+218 location=='L6'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.8
+219 location=='L6'&ei=='2e1' location=='L4'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.8
+220 location=='L2'&ei=='2e1' location=='L5'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 3.0
+221 location=='L4'&ei=='2e1' location=='L5'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 2.5
+222 location=='L6'&ei=='2e1' location=='L5'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.8
+223 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.6
+224 location=='L2'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.9
+225 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.9
+226 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.1
+227 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.4
+228 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.4
+229 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+230 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+231 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.7
+232 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.4
+233 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.000792 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+234 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.4
+235 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2i1'&pop_name=='Sst' InhToInh.json gaussianLL_Laminar 0.0018479999999999998 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+236 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.1
+237 location=='L6'&ei=='2i1'&pop_name=='VIP' location=='L5'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.0005279999999999999 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.4
+238 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 2.5
+239 location=='L6'&ei=='2i1'&pop_name=='PV1' location=='L5'&ei=='2i1'&pop_name=='PV1' InhToInh.json gaussianLL_Laminar 0.002424 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 1.8
+240 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 2.4
+241 location=='L6'&ei=='2i1'&pop_name=='Sst' location=='L5'&ei=='2i1'&pop_name=='VIP' InhToInh.json gaussianLL_Laminar 0.047999999999999994 15.0 "[0.0, 1e+20]" ['basal'] exp2syn 1.7
+242 location=='L6'&ei=='2e1' location=='L5'&ei=='2i1'&pop_name=='PV1' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['somatic', 'basal', 'apical']" exp2syn 1.1
+243 location=='L6'&ei=='2e1' location=='L5'&ei=='2i1'&pop_name=='Sst' InhToExc.json gaussianLL_Laminar 0.0024 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+244 location=='L6'&ei=='2e1' location=='L5'&ei=='2i1'&pop_name=='VIP' InhToExc.json gaussianLL_Laminar 4.7999999999999994e-05 15.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 1.7
+245 location=='L2'&ei=='2e1' location=='L6'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 4.9
+246 location=='L4'&ei=='2e1' location=='L6'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 4.2
+247 location=='L5'&ei=='2e1' location=='L6'&ei=='2e1' ExcToExc.json gaussianLL_Laminar 0.00035 5.0 "[0.0, 1e+20]" "['basal', 'apical']" exp2syn 3.5
+248 location=='L2'&ei=='2i1'&pop_name=='PV1' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.006 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.5
+249 location=='L2'&ei=='2i1'&pop_name=='Sst' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.00375 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.8
+250 location=='L2'&ei=='2i1'&pop_name=='VIP' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.8
+251 location=='L4'&ei=='2i1'&pop_name=='PV1' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 3.8
+252 location=='L4'&ei=='2i1'&pop_name=='Sst' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.1
+253 location=='L4'&ei=='2i1'&pop_name=='VIP' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 4.1
+254 location=='L5'&ei=='2i1'&pop_name=='PV1' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.003 15.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 3.1
+255 location=='L5'&ei=='2i1'&pop_name=='Sst' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.001875 10.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 3.4
+256 location=='L5'&ei=='2i1'&pop_name=='VIP' location=='L6'&ei=='2e1' ExcToInh.json gaussianLL_Laminar 0.0015 5.0 "[0.0, 1e+20]" "['somatic', 'basal']" exp2syn 3.4

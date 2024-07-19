@@ -1,0 +1,2 @@
+edge_type_id target_query source_query dynamics_params target_sections model_template distance_range delay syn_weight
+100 pop_name=='VIP' * lgn_ExcToInh.json "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2.0 1
