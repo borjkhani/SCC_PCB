@@ -1,7 +1,0 @@
-edge_type_id target_query source_query dynamics_params weight_function weight_sigma target_sections model_template distance_range delay syn_weight
-100 ei=='2e1'&location=='L4' * lgn_ExcToExc.json gaussianLL123T1 35.0 "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2.0 0.003
-101 ei=='2e1'&location=='L4' * lgn_ExcToExc.json NULL NULL "['basal', 'apical', 'somatic']" exp2syn "[0.0, 1e+20]" 2.0 6e-06
-102 ei=='2i1'&location=='L4'&pop_name=='PV1' * lgn_ExcToInh.json gaussianLL123T1 40.0 "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2.0 0.3
-103 ei=='2i1'&location=='L4'&pop_name=='PV1' * lgn_ExcToInh.json NULL NULL "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2 5e-05
-104 ei=='2i1'&location=='L4'&pop_name=='Sst' * lgn_ExcToInh.json gaussianLL123T1 38.0 "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2.0 0.025
-105 ei=='2i1'&location=='L4'&pop_name=='Sst' * lgn_ExcToInh.json NULL NULL "['basal', 'apical']" exp2syn "[0.0, 1e+20]" 2 5e-05
