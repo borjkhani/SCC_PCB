@@ -1,0 +1,16 @@
+[h_06,p_06] = ttest2(H_C1_PYRs,H_PV_Act_06P1_PYRs) 
+[h_12,p_12] = ttest2(H_C1_PYRs,H_PV_Act_12P1_PYRs) 
+[h_18,p_18] = ttest2(H_C1_PYRs,H_PV_Act_18P1_PYRs) 
+[h_25,p_25] = ttest2(H_C1_PYRs,H_PV_Act_25P1_PYRs) 
+[h_50,p_50] = ttest2(H_C1_PYRs,H_PV_Act_50P1_PYRs) 
+[h_75,p_75] = ttest2(H_C1_PYRs,H_PV_Act_75P1_PYRs) 
+[h_100,p_100] = ttest2(H_C1_PYRs,H_PV_Act_100P1_PYRs) 
+
+[h_06_DeAct,p_06_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_06P1_PYRs) 
+[h_12_DeAct,p_12_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_12P1_PYRs) 
+[h_18_DeAct,p_18_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_18P1_PYRs) 
+[h_25_DeAct,p_25_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_25P1_PYRs)  
+[h_50_DeAct,p_50_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_50P1_PYRs) 
+[h_75_DeAct,p_75_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_75P1_PYRs)  
+[h_100_DeAct,p_100_DeAct] = ttest2(H_C1_PYRs,H_PV_DeAct_100P1_PYRs)  
+
