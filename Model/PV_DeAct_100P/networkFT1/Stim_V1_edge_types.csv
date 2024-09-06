@@ -1,2 +1,0 @@
-edge_type_id target_query source_query dynamics_params syn_weight target_sections distance_range model_template delay
-100 pop_name=='PV1' * lgn_InhToInh.json 1 "['basal', 'apical']" "[0.0, 1e+20]" exp2syn 2.0

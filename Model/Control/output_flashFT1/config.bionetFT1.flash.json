@@ -301,6 +301,6 @@
     "spikes_file_csv": "./output_flashFT1\\spikesFT1.csv"
   },
   "reports": {},
-  "config_path": "C:\\Users\\Mehdi\\Downloads\\Model 13\\Control - Test 7\\config.bionetFT1.flash.json",
-  "config_dir": "C:\\Users\\Mehdi\\Downloads\\Model 13\\Control - Test 7"
+  "config_path": "C:\\Users\\Mehdi\\Documents\\Github\\SCC_PCB\\Model\\Control\\config.bionetFT1.flash.json",
+  "config_dir": "C:\\Users\\Mehdi\\Documents\\Github\\SCC_PCB\\Model\\Control"
 }

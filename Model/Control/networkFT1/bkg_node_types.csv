@@ -1,2 +1,2 @@
-node_type_id spatial_size model_template dynamics_params model_type
-100 1.0 lgnmodel:tON tON_TF8.json virtual
+node_type_id dynamics_params model_template spatial_size model_type
+100 tON_TF8.json lgnmodel:tON 1.0 virtual
