@@ -1,0 +1,77 @@
+2023-07-26 09:59:36,288 [INFO] Created log file
+2023-07-26 09:59:37,301 [INFO] Building cells.
+2023-07-26 10:00:44,116 [INFO] Building recurrent connections
+2023-07-26 10:01:50,297 [INFO] Building virtual cell stimulations for lgn0T1_spikes
+2023-07-26 10:01:52,958 [INFO] Building virtual cell stimulations for lgn11T1_spikes
+2023-07-26 10:01:55,580 [INFO] Building virtual cell stimulations for lgn22T1_spikes
+2023-07-26 10:01:58,319 [INFO] Building virtual cell stimulations for lgn33T1_spikes
+2023-07-26 10:02:00,974 [INFO] Building virtual cell stimulations for lgn45T1_spikes
+2023-07-26 10:02:03,634 [INFO] Building virtual cell stimulations for lgn56T1_spikes
+2023-07-26 10:02:06,313 [INFO] Building virtual cell stimulations for lgn67T1_spikes
+2023-07-26 10:02:08,951 [INFO] Building virtual cell stimulations for lgn78T1_spikes
+2023-07-26 10:02:11,585 [INFO] Building virtual cell stimulations for lgn90T1_spikes
+2023-07-26 10:02:14,213 [INFO] Building virtual cell stimulations for lgn101T1_spikes
+2023-07-26 10:02:16,998 [INFO] Building virtual cell stimulations for lgn112T1_spikes
+2023-07-26 10:02:19,624 [INFO] Building virtual cell stimulations for lgn123T1_spikes
+2023-07-26 10:02:22,230 [INFO] Building virtual cell stimulations for lgn135T1_spikes
+2023-07-26 10:02:24,833 [INFO] Building virtual cell stimulations for lgn146T1_spikes
+2023-07-26 10:02:27,454 [INFO] Building virtual cell stimulations for lgn157T1_spikes
+2023-07-26 10:02:30,124 [INFO] Building virtual cell stimulations for lgn168T1_spikes
+2023-07-26 10:02:32,747 [INFO] Building virtual cell stimulations for lgn180T1_spikes
+2023-07-26 10:02:35,360 [INFO] Building virtual cell stimulations for Stim_spikes
+2023-07-26 10:02:39,651 [INFO] Building virtual cell stimulations for bkg_spikes
+2023-07-26 10:02:39,780 [INFO] Running simulation for 25500.000 ms with the time step 0.100 ms
+2023-07-26 10:02:39,781 [INFO] Starting timestep: 0 at t_sim: 0.000 ms
+2023-07-26 10:02:39,781 [INFO] Block save every 5000 steps
+2023-07-26 10:04:24,287 [INFO]     step:5000 t_sim:500.00 ms
+2023-07-26 10:06:06,382 [INFO]     step:10000 t_sim:1000.00 ms
+2023-07-26 10:07:47,680 [INFO]     step:15000 t_sim:1500.00 ms
+2023-07-26 10:09:35,053 [INFO]     step:20000 t_sim:2000.00 ms
+2023-07-26 10:11:18,178 [INFO]     step:25000 t_sim:2500.00 ms
+2023-07-26 10:13:03,287 [INFO]     step:30000 t_sim:3000.00 ms
+2023-07-26 10:14:56,269 [INFO]     step:35000 t_sim:3500.00 ms
+2023-07-26 10:16:46,154 [INFO]     step:40000 t_sim:4000.00 ms
+2023-07-26 10:18:35,437 [INFO]     step:45000 t_sim:4500.00 ms
+2023-07-26 10:20:24,318 [INFO]     step:50000 t_sim:5000.00 ms
+2023-07-26 10:22:24,297 [INFO]     step:55000 t_sim:5500.00 ms
+2023-07-26 10:24:27,667 [INFO]     step:60000 t_sim:6000.00 ms
+2023-07-26 10:26:36,685 [INFO]     step:65000 t_sim:6500.00 ms
+2023-07-26 10:28:36,179 [INFO]     step:70000 t_sim:7000.00 ms
+2023-07-26 10:30:27,892 [INFO]     step:75000 t_sim:7500.00 ms
+2023-07-26 10:32:20,506 [INFO]     step:80000 t_sim:8000.00 ms
+2023-07-26 10:34:25,329 [INFO]     step:85000 t_sim:8500.00 ms
+2023-07-26 10:36:41,017 [INFO]     step:90000 t_sim:9000.00 ms
+2023-07-26 10:38:56,816 [INFO]     step:95000 t_sim:9500.00 ms
+2023-07-26 10:41:23,705 [INFO]     step:100000 t_sim:10000.00 ms
+2023-07-26 10:44:04,300 [INFO]     step:105000 t_sim:10500.00 ms
+2023-07-26 10:46:34,156 [INFO]     step:110000 t_sim:11000.00 ms
+2023-07-26 10:48:39,387 [INFO]     step:115000 t_sim:11500.00 ms
+2023-07-26 10:50:51,250 [INFO]     step:120000 t_sim:12000.00 ms
+2023-07-26 10:53:07,960 [INFO]     step:125000 t_sim:12500.00 ms
+2023-07-26 10:55:22,431 [INFO]     step:130000 t_sim:13000.00 ms
+2023-07-26 10:57:39,933 [INFO]     step:135000 t_sim:13500.00 ms
+2023-07-26 10:59:45,163 [INFO]     step:140000 t_sim:14000.00 ms
+2023-07-26 11:01:49,899 [INFO]     step:145000 t_sim:14500.00 ms
+2023-07-26 11:04:05,310 [INFO]     step:150000 t_sim:15000.00 ms
+2023-07-26 11:06:22,550 [INFO]     step:155000 t_sim:15500.00 ms
+2023-07-26 11:08:42,194 [INFO]     step:160000 t_sim:16000.00 ms
+2023-07-26 11:10:52,099 [INFO]     step:165000 t_sim:16500.00 ms
+2023-07-26 11:13:00,177 [INFO]     step:170000 t_sim:17000.00 ms
+2023-07-26 11:15:18,920 [INFO]     step:175000 t_sim:17500.00 ms
+2023-07-26 11:17:39,503 [INFO]     step:180000 t_sim:18000.00 ms
+2023-07-26 11:20:00,200 [INFO]     step:185000 t_sim:18500.00 ms
+2023-07-26 11:22:15,455 [INFO]     step:190000 t_sim:19000.00 ms
+2023-07-26 11:24:30,816 [INFO]     step:195000 t_sim:19500.00 ms
+2023-07-26 11:26:53,540 [INFO]     step:200000 t_sim:20000.00 ms
+2023-07-26 11:29:16,853 [INFO]     step:205000 t_sim:20500.00 ms
+2023-07-26 11:31:44,209 [INFO]     step:210000 t_sim:21000.00 ms
+2023-07-26 11:34:23,626 [INFO]     step:215000 t_sim:21500.00 ms
+2023-07-26 11:37:03,362 [INFO]     step:220000 t_sim:22000.00 ms
+2023-07-26 11:39:46,325 [INFO]     step:225000 t_sim:22500.00 ms
+2023-07-26 11:42:29,947 [INFO]     step:230000 t_sim:23000.00 ms
+2023-07-26 11:45:21,005 [INFO]     step:235000 t_sim:23500.00 ms
+2023-07-26 11:48:23,922 [INFO]     step:240000 t_sim:24000.00 ms
+2023-07-26 11:51:31,299 [INFO]     step:245000 t_sim:24500.00 ms
+2023-07-26 11:54:38,448 [INFO]     step:250000 t_sim:25000.00 ms
+2023-07-26 11:57:45,670 [INFO]     step:255000 t_sim:25500.00 ms
+2023-07-26 11:57:46,149 [INFO] Simulation completed in 115.0 minutes, 6.369 seconds 
