@@ -11,7 +11,6 @@
 <div style="text-align: justify; width: 100%;">
 This repository contains the source code and documentation for building, simulating, and analyzing a single cortical column model. The model leverages cutting-edge tools in computational neuroscience to provide insights into cortical dynamics and neural network functionality. The primary tools used in this project include:
 </div>
-<h2 style="margin-top: 30px;">Research Interests</h2>
 
 __Brain Modeling Toolkit (BMTK):__ A Python-based software package for building and simulating large-scale neural network models. BMTK provides an interface for utilizing NEURON and NEST simulators, enabling researchers to create models ranging from detailed multi-compartment neuron networks to abstract population-level simulations. For more information, visit the [BMTK documentation](https://alleninstitute.github.io/bmtk/) and the [BMTK GitHub repository](https://github.com/AllenInstitute/bmtk).
 
