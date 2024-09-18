@@ -22,12 +22,11 @@ __MATLAB:__ The data analysis, including post-processing of simulation results a
 
 This repository showcases the simulation pipeline, from building the network with BMTK to visualizing the output using VND, and final data analysis in MATLAB. All essential tools and detailed guides are available through their respective links, providing the necessary resources for others to replicate or build upon this work.
 
-Please feel free to explore the code, contribute, or contact me with any questions. 
-
 ## User guide 
 You can find the code for running the simulations [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb) 
 Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/main/Analysis). for example the analysis related to the control condition is [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m)
 
+Please feel free to explore the code, contribute, or contact me with any questions. 
 
 
 
