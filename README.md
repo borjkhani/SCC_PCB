@@ -29,7 +29,7 @@ Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/m
 Please feel free to explore the code, contribute, or contact me with any questions. 
 
 ## Acknowledgments
-This work was supported by The "International Centre for Translational Eye Research [ICTER](https://icter.pl/)" project is carried out within the MAB FENG action 02.01. of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund, European Funds for Smart Economy, agreement no. FENG.02.01-IP.05-T005/23.
+This work was supported by The "[International Centre for Translational Eye Research (ICTER)](https://icter.pl/)" project is carried out within the MAB FENG action 02.01. of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund, European Funds for Smart Economy, agreement no. FENG.02.01-IP.05-T005/23.
 National Science Center, Poland (2019/34/E/NZ5/00434) for ATF
 National Science Center, Poland (2020/39/D/NZ4/01881)for ATF
 National Science Center, Poland (2022/47/B/NZ5/03023) for ATF
