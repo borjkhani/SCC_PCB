@@ -8,14 +8,6 @@
 </p>
 
 ## Introduction
-
-You can find the code for running the simulations [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb) 
-Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/main/Analysis). for example the analysis related to the control condition is [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m)
-
-the necessity information about the tools that have been used in this work can be found [here](https://alleninstitute.github.io/bmtk/). user guide about and source files of the brain modeling tool kit can be found [here](https://github.com/AllenInstitute/bmtk). 
-visualisation process of the model is demonstrated [here](https://www.ks.uiuc.edu/Research/vnd/) 
-
-Cortical Column Model
 This repository contains the source code and documentation for building, simulating, and analyzing a single cortical column model. The model leverages cutting-edge tools in computational neuroscience to provide insights into cortical dynamics and neural network functionality. The primary tools used in this project include:
 
 Brain Modeling Toolkit (BMTK): A Python-based software package for building and simulating large-scale neural network models. BMTK provides an interface for utilizing NEURON and NEST simulators, enabling researchers to create models ranging from detailed multi-compartment neuron networks to abstract population-level simulations. For more information, visit the [BMTK documentation](https://alleninstitute.github.io/bmtk/) and the [BMTK GitHub repository](https://github.com/AllenInstitute/bmtk).
@@ -32,8 +24,9 @@ This repository showcases the simulation pipeline, from building the network wit
 
 Please feel free to explore the code, contribute, or contact me with any questions. 
 
-
-
+## User guide 
+You can find the code for running the simulations [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb) 
+Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/main/Analysis). for example the analysis related to the control condition is [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m)
 
 
 
