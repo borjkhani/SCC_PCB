@@ -10,7 +10,7 @@
 ## Introduction
 
 You can find the code for running the simulations [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb) 
-Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/main/Analysis). for example the analysis related to the control condition are [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m)
+Then you may run the analysis [here](https://github.com/borjkhani/SCC_PCB/tree/main/Analysis). for example the analysis related to the control condition is [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m)
 
 
 
