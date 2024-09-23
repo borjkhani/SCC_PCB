@@ -40,7 +40,7 @@ To run a single trial simulation of baseline cortical column activity under the 
 For additional simulations where interneurons are either activated or suppressed, refer to the corresponding script in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). These scripts model how changes in interneuron dynamics affect the network’s overall behavior.
 
 ## Data Analysis
-Once the simulations are complete, you can perform detailed analysis using the tools provided in the __Analysis__ folder. For example, you can analyze the control condition data by following the instructions in the *Run_All.m* script, which compiles and runs all the necessary steps for processing the simulation results and extracting key metrics. You can find the script [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m).e.
+Once the simulations are complete, you can perform detailed analysis using the tools provided in the __Analysis__ folder. For example, you can analyze the control condition data by following the instructions in the *Run_All.m* script, which compiles and runs all the necessary steps for processing the simulation results and extracting key metrics. You can find the script [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m).
 
 Additional analysis scripts for different conditions and statistical comparisons are also available in the __Analysis__ section of the repository.
 
