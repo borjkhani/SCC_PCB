@@ -1,0 +1,30 @@
+clc;
+clear;
+
+%load('HWHH_PV_Act_DeAct.mat')
+load('HWHH_Sst_Act_DeAct.mat')
+run Cell_IDs.m
+%%
+% N=PYRs
+% H_C(N,1)
+% H_PV_Act_100P(N,1)
+% H_PV_DeAct_100P(N,1)
+
+%%
+clc
+N=Sst;
+
+H_C(H_C>30)=0;
+H_Sst_Act_100P(H_Sst_Act_100P>30)=0;
+H_Sst_DeAct_100P(H_Sst_DeAct_100P>30)=0;
+
+M_C=mean(H_C(N,1))
+SEM_C=std(H_C(N,1))
+
+
+M_Act=mean(H_Sst_Act_100P(N,1))
+SEM_Act=std(H_Sst_Act_100P(N,1))
+
+M_Act=mean(H_Sst_DeAct_100P(N,1))
+SEM_Act=std(H_Sst_DeAct_100P(N,1))
+%%

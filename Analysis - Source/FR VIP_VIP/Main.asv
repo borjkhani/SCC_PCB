@@ -1,0 +1,697 @@
+close all
+clc
+clear
+
+run Cell_IDs.m 
+
+load('All_cells_Control.mat')
+Firings_Control_1 = All_cells_Control;
+
+load('All_cells_PV_Act_06P.mat')
+All_cells_PV_Act_06P=All_cells_Control;
+
+load('All_cells_PV_Act_12P.mat')
+All_cells_PV_Act_12P=All_cells_Control;
+
+load('All_cells_PV_Act_18P.mat')
+All_cells_PV_Act_18P=All_cells_Control;
+
+load('All_cells_PV_Act_25P.mat')
+All_cells_PV_Act_25P=All_cells_Control;
+
+load('All_cells_PV_Act_50P.mat')
+All_cells_PV_Act_50P=All_cells_Control;
+
+load('All_cells_PV_Act_75P.mat')
+All_cells_PV_Act_75P=All_cells_Control;
+
+load('All_cells_PV_Act_100P.mat')
+All_cells_PV_Act_100P=All_cells_Control;
+
+% load('All_cells_PV_DeAct.mat')
+% All_cells_PV_DeAct=All_cells_PV_DeAct;
+
+load('All_cells_PV_DeAct_06P.mat')
+All_cells_PV_DeAct_06P=All_cells_Control;
+
+load('All_cells_PV_DeAct_12P.mat')
+All_cells_PV_DeAct_12P=All_cells_Control;
+
+load('All_cells_PV_DeAct_18P.mat')
+All_cells_PV_DeAct_18P=All_cells_Control;
+
+load('All_cells_PV_DeAct_25P.mat')
+All_cells_PV_DeAct_25P=All_cells_Control;
+
+load('All_cells_PV_DeAct_50P.mat')
+All_cells_PV_DeAct_50P=All_cells_Control;
+
+load('All_cells_PV_DeAct_75P.mat')
+All_cells_PV_DeAct_75P=All_cells_Control;
+
+load('All_cells_PV_DeAct_100P.mat')
+All_cells_PV_DeAct_100P=All_cells_Control;
+
+MQ=3;
+%%
+Cell_Number = PVs;
+
+Firings_Control = Firings_Control_1(:,Cell_Number);
+%
+F_C=cell2mat(Firings_Control);
+
+FB_C(1,:,:)=F_C(1:17,:);
+FB_C(2,:,:)=F_C(18:34,:);
+FB_C(3,:,:)=F_C(35:51,:);
+FB_C(4,:,:)=F_C(52:68,:);
+
+FB_C(5,:,:)=F_C(69:85,:);
+FB_C(6,:,:)=F_C(86:102,:);
+FB_C(7,:,:)=F_C(103:119,:);
+FB_C(8,:,:)=F_C(120:136,:);
+
+BB_Control=mean(FB_C,MQ);
+
+
+%pcolor(BB_Control);
+%%
+Firings_PV_Act_06P = All_cells_PV_Act_06P(:,Cell_Number);
+%
+F_PV_Act_06P=cell2mat(Firings_PV_Act_06P);
+%
+FB_PV_Act_06P(1,:,:)=F_PV_Act_06P(1:17,:);
+FB_PV_Act_06P(2,:,:)=F_PV_Act_06P(18:34,:);
+FB_PV_Act_06P(3,:,:)=F_PV_Act_06P(35:51,:);
+FB_PV_Act_06P(4,:,:)=F_PV_Act_06P(52:68,:);
+
+FB_PV_Act_06P(5,:,:)=F_PV_Act_06P(69:85,:);
+FB_PV_Act_06P(6,:,:)=F_PV_Act_06P(86:102,:);
+FB_PV_Act_06P(7,:,:)=F_PV_Act_06P(103:119,:);
+FB_PV_Act_06P(8,:,:)=F_PV_Act_06P(120:136,:);
+
+BB_PV_Act_06P=mean(FB_PV_Act_06P,MQ);
+%%
+Firings_PV_Act_12P = All_cells_PV_Act_12P(:,Cell_Number);
+%
+F_PV_Act_12P=cell2mat(Firings_PV_Act_12P);
+%
+FB_PV_Act_12P(1,:,:)=F_PV_Act_12P(1:17,:);
+FB_PV_Act_12P(2,:,:)=F_PV_Act_12P(18:34,:);
+FB_PV_Act_12P(3,:,:)=F_PV_Act_12P(35:51,:);
+FB_PV_Act_12P(4,:,:)=F_PV_Act_12P(52:68,:);
+
+FB_PV_Act_12P(5,:,:)=F_PV_Act_12P(69:85,:);
+FB_PV_Act_12P(6,:,:)=F_PV_Act_12P(86:102,:);
+FB_PV_Act_12P(7,:,:)=F_PV_Act_12P(103:119,:);
+FB_PV_Act_12P(8,:,:)=F_PV_Act_12P(120:136,:);
+
+BB_PV_Act_12P=mean(FB_PV_Act_12P,MQ);
+%%
+Firings_PV_Act_18P = All_cells_PV_Act_18P(:,Cell_Number);
+%
+F_PV_Act_18P=cell2mat(Firings_PV_Act_18P);
+%
+FB_PV_Act_18P(1,:,:)=F_PV_Act_18P(1:17,:);
+FB_PV_Act_18P(2,:,:)=F_PV_Act_18P(18:34,:);
+FB_PV_Act_18P(3,:,:)=F_PV_Act_18P(35:51,:);
+FB_PV_Act_18P(4,:,:)=F_PV_Act_18P(52:68,:);
+
+FB_PV_Act_18P(5,:,:)=F_PV_Act_18P(69:85,:);
+FB_PV_Act_18P(6,:,:)=F_PV_Act_18P(86:102,:);
+FB_PV_Act_18P(7,:,:)=F_PV_Act_18P(103:119,:);
+FB_PV_Act_18P(8,:,:)=F_PV_Act_18P(120:136,:);
+
+BB_PV_Act_18P=mean(FB_PV_Act_18P,MQ);
+
+%%
+Firings_PV_Act_25P = All_cells_PV_Act_25P(:,Cell_Number);
+%
+F_PV_Act_25P=cell2mat(Firings_PV_Act_25P);
+%
+FB_PV_Act_25P(1,:,:)=F_PV_Act_25P(1:17,:);
+FB_PV_Act_25P(2,:,:)=F_PV_Act_25P(18:34,:);
+FB_PV_Act_25P(3,:,:)=F_PV_Act_25P(35:51,:);
+FB_PV_Act_25P(4,:,:)=F_PV_Act_25P(52:68,:);
+
+FB_PV_Act_25P(5,:,:)=F_PV_Act_25P(69:85,:);
+FB_PV_Act_25P(6,:,:)=F_PV_Act_25P(86:102,:);
+FB_PV_Act_25P(7,:,:)=F_PV_Act_25P(103:119,:);
+FB_PV_Act_25P(8,:,:)=F_PV_Act_25P(120:136,:);
+
+BB_PV_Act_25P=mean(FB_PV_Act_25P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_Act_25P,1);
+% y = mean(BB_PV_Act_25P);
+% SEM = std(BB_PV_Act_25P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+%errorbar(x, y, CI95,'o','LineWidth',3);
+%grid off
+%hold on;
+%%
+Firings_PV_Act_50P = All_cells_PV_Act_50P(:,Cell_Number);
+%
+F_PV_Act_50P=cell2mat(Firings_PV_Act_50P);
+%
+FB_PV_Act_50P(1,:,:)=F_PV_Act_50P(1:17,:);
+FB_PV_Act_50P(2,:,:)=F_PV_Act_50P(18:34,:);
+FB_PV_Act_50P(3,:,:)=F_PV_Act_50P(35:51,:);
+FB_PV_Act_50P(4,:,:)=F_PV_Act_50P(52:68,:);
+
+FB_PV_Act_50P(5,:,:)=F_PV_Act_50P(69:85,:);
+FB_PV_Act_50P(6,:,:)=F_PV_Act_50P(86:102,:);
+FB_PV_Act_50P(7,:,:)=F_PV_Act_50P(103:119,:);
+FB_PV_Act_50P(8,:,:)=F_PV_Act_50P(120:136,:);
+
+BB_PV_Act_50P=mean(FB_PV_Act_50P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_Act_50P,1);
+% y = mean(BB_PV_Act_50P);
+% SEM = std(BB_PV_Act_50P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+%%
+Firings_PV_Act_75P = All_cells_PV_Act_75P(:,Cell_Number);
+%
+F_PV_Act_75P=cell2mat(Firings_PV_Act_75P);
+%
+FB_PV_Act_75P(1,:,:)=F_PV_Act_75P(1:17,:);
+FB_PV_Act_75P(2,:,:)=F_PV_Act_75P(18:34,:);
+FB_PV_Act_75P(3,:,:)=F_PV_Act_75P(35:51,:);
+FB_PV_Act_75P(4,:,:)=F_PV_Act_75P(52:68,:);
+
+FB_PV_Act_75P(5,:,:)=F_PV_Act_75P(69:85,:);
+FB_PV_Act_75P(6,:,:)=F_PV_Act_75P(86:102,:);
+FB_PV_Act_75P(7,:,:)=F_PV_Act_75P(103:119,:);
+FB_PV_Act_75P(8,:,:)=F_PV_Act_75P(120:136,:);
+
+BB_PV_Act_75P=mean(FB_PV_Act_75P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_Act_75P,1);
+% y = mean(BB_PV_Act_75P);
+% SEM = std(BB_PV_Act_75P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+
+%%
+Firings_PV_Act_100P = All_cells_PV_Act_100P(:,Cell_Number);
+%
+F_PV_Act_100P=cell2mat(Firings_PV_Act_100P);
+%
+FB_PV_Act_100P(1,:,:)=F_PV_Act_100P(1:17,:);
+FB_PV_Act_100P(2,:,:)=F_PV_Act_100P(18:34,:);
+FB_PV_Act_100P(3,:,:)=F_PV_Act_100P(35:51,:);
+FB_PV_Act_100P(4,:,:)=F_PV_Act_100P(52:68,:);
+
+FB_PV_Act_100P(5,:,:)=F_PV_Act_100P(69:85,:);
+FB_PV_Act_100P(6,:,:)=F_PV_Act_100P(86:102,:);
+FB_PV_Act_100P(7,:,:)=F_PV_Act_100P(103:119,:);
+FB_PV_Act_100P(8,:,:)=F_PV_Act_100P(120:136,:);
+
+BB_PV_Act_100P=mean(FB_PV_Act_100P,MQ);
+%%
+
+Firings_PV_DeAct_06P = All_cells_PV_DeAct_06P(:,Cell_Number);
+%
+F_PV_DeAct_06P=cell2mat(Firings_PV_DeAct_06P);
+%
+FB_PV_DeAct_06P(1,:,:)=F_PV_DeAct_06P(1:17,:);
+FB_PV_DeAct_06P(2,:,:)=F_PV_DeAct_06P(18:34,:);
+FB_PV_DeAct_06P(3,:,:)=F_PV_DeAct_06P(35:51,:);
+FB_PV_DeAct_06P(4,:,:)=F_PV_DeAct_06P(52:68,:);
+
+FB_PV_DeAct_06P(5,:,:)=F_PV_DeAct_06P(69:85,:);
+FB_PV_DeAct_06P(6,:,:)=F_PV_DeAct_06P(86:102,:);
+FB_PV_DeAct_06P(7,:,:)=F_PV_DeAct_06P(103:119,:);
+FB_PV_DeAct_06P(8,:,:)=F_PV_DeAct_06P(120:136,:);
+
+BB_PV_DeAct_06P=mean(FB_PV_DeAct_06P,MQ);
+%%
+Firings_PV_DeAct_12P = All_cells_PV_DeAct_12P(:,Cell_Number);
+%
+F_PV_DeAct_12P=cell2mat(Firings_PV_DeAct_12P);
+%
+FB_PV_DeAct_12P(1,:,:)=F_PV_DeAct_12P(1:17,:);
+FB_PV_DeAct_12P(2,:,:)=F_PV_DeAct_12P(18:34,:);
+FB_PV_DeAct_12P(3,:,:)=F_PV_DeAct_12P(35:51,:);
+FB_PV_DeAct_12P(4,:,:)=F_PV_DeAct_12P(52:68,:);
+
+FB_PV_DeAct_12P(5,:,:)=F_PV_DeAct_12P(69:85,:);
+FB_PV_DeAct_12P(6,:,:)=F_PV_DeAct_12P(86:102,:);
+FB_PV_DeAct_12P(7,:,:)=F_PV_DeAct_12P(103:119,:);
+FB_PV_DeAct_12P(8,:,:)=F_PV_DeAct_12P(120:136,:);
+
+BB_PV_DeAct_12P=mean(FB_PV_DeAct_12P,MQ);
+%%
+Firings_PV_DeAct_18P = All_cells_PV_DeAct_18P(:,Cell_Number);
+%
+F_PV_DeAct_18P=cell2mat(Firings_PV_DeAct_18P);
+%
+FB_PV_DeAct_18P(1,:,:)=F_PV_DeAct_18P(1:17,:);
+FB_PV_DeAct_18P(2,:,:)=F_PV_DeAct_18P(18:34,:);
+FB_PV_DeAct_18P(3,:,:)=F_PV_DeAct_18P(35:51,:);
+FB_PV_DeAct_18P(4,:,:)=F_PV_DeAct_18P(52:68,:);
+
+FB_PV_DeAct_18P(5,:,:)=F_PV_DeAct_18P(69:85,:);
+FB_PV_DeAct_18P(6,:,:)=F_PV_DeAct_18P(86:102,:);
+FB_PV_DeAct_18P(7,:,:)=F_PV_DeAct_18P(103:119,:);
+FB_PV_DeAct_18P(8,:,:)=F_PV_DeAct_18P(120:136,:);
+
+BB_PV_DeAct_18P=mean(FB_PV_DeAct_18P,MQ);
+
+%%
+Firings_PV_DeAct_25P = All_cells_PV_DeAct_25P(:,Cell_Number);
+%
+F_PV_DeAct_25P=cell2mat(Firings_PV_DeAct_25P);
+%
+FB_PV_DeAct_25P(1,:,:)=F_PV_DeAct_25P(1:17,:);
+FB_PV_DeAct_25P(2,:,:)=F_PV_DeAct_25P(18:34,:);
+FB_PV_DeAct_25P(3,:,:)=F_PV_DeAct_25P(35:51,:);
+FB_PV_DeAct_25P(4,:,:)=F_PV_DeAct_25P(52:68,:);
+
+FB_PV_DeAct_25P(5,:,:)=F_PV_DeAct_25P(69:85,:);
+FB_PV_DeAct_25P(6,:,:)=F_PV_DeAct_25P(86:102,:);
+FB_PV_DeAct_25P(7,:,:)=F_PV_DeAct_25P(103:119,:);
+FB_PV_DeAct_25P(8,:,:)=F_PV_DeAct_25P(120:136,:);
+
+BB_PV_DeAct_25P=mean(FB_PV_DeAct_25P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_DeAct_25P,1);
+% y = mean(BB_PV_DeAct_25P);
+% SEM = std(BB_PV_DeAct_25P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+%errorbar(x, y, CI95,'o','LineWidth',3);
+%grid off
+%hold on;
+%%
+Firings_PV_DeAct_50P = All_cells_PV_DeAct_50P(:,Cell_Number);
+%
+F_PV_DeAct_50P=cell2mat(Firings_PV_DeAct_50P);
+%
+FB_PV_DeAct_50P(1,:,:)=F_PV_DeAct_50P(1:17,:);
+FB_PV_DeAct_50P(2,:,:)=F_PV_DeAct_50P(18:34,:);
+FB_PV_DeAct_50P(3,:,:)=F_PV_DeAct_50P(35:51,:);
+FB_PV_DeAct_50P(4,:,:)=F_PV_DeAct_50P(52:68,:);
+
+FB_PV_DeAct_50P(5,:,:)=F_PV_DeAct_50P(69:85,:);
+FB_PV_DeAct_50P(6,:,:)=F_PV_DeAct_50P(86:102,:);
+FB_PV_DeAct_50P(7,:,:)=F_PV_DeAct_50P(103:119,:);
+FB_PV_DeAct_50P(8,:,:)=F_PV_DeAct_50P(120:136,:);
+
+BB_PV_DeAct_50P=mean(FB_PV_DeAct_50P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_DeAct_50P,1);
+% y = mean(BB_PV_DeAct_50P);
+% SEM = std(BB_PV_DeAct_50P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+%%
+Firings_PV_DeAct_75P = All_cells_PV_DeAct_75P(:,Cell_Number);
+%
+F_PV_DeAct_75P=cell2mat(Firings_PV_DeAct_75P);
+%
+FB_PV_DeAct_75P(1,:,:)=F_PV_DeAct_75P(1:17,:);
+FB_PV_DeAct_75P(2,:,:)=F_PV_DeAct_75P(18:34,:);
+FB_PV_DeAct_75P(3,:,:)=F_PV_DeAct_75P(35:51,:);
+FB_PV_DeAct_75P(4,:,:)=F_PV_DeAct_75P(52:68,:);
+
+FB_PV_DeAct_75P(5,:,:)=F_PV_DeAct_75P(69:85,:);
+FB_PV_DeAct_75P(6,:,:)=F_PV_DeAct_75P(86:102,:);
+FB_PV_DeAct_75P(7,:,:)=F_PV_DeAct_75P(103:119,:);
+FB_PV_DeAct_75P(8,:,:)=F_PV_DeAct_75P(120:136,:);
+
+BB_PV_DeAct_75P=mean(FB_PV_DeAct_75P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_DeAct_75P,1);
+% y = mean(BB_PV_DeAct_75P);
+% SEM = std(BB_PV_DeAct_75P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+
+%%
+Firings_PV_DeAct_100P = All_cells_PV_DeAct_100P(:,Cell_Number);
+%
+F_PV_DeAct_100P=cell2mat(Firings_PV_DeAct_100P);
+%
+FB_PV_DeAct_100P(1,:,:)=F_PV_DeAct_100P(1:17,:);
+FB_PV_DeAct_100P(2,:,:)=F_PV_DeAct_100P(18:34,:);
+FB_PV_DeAct_100P(3,:,:)=F_PV_DeAct_100P(35:51,:);
+FB_PV_DeAct_100P(4,:,:)=F_PV_DeAct_100P(52:68,:);
+
+FB_PV_DeAct_100P(5,:,:)=F_PV_DeAct_100P(69:85,:);
+FB_PV_DeAct_100P(6,:,:)=F_PV_DeAct_100P(86:102,:);
+FB_PV_DeAct_100P(7,:,:)=F_PV_DeAct_100P(103:119,:);
+FB_PV_DeAct_100P(8,:,:)=F_PV_DeAct_100P(120:136,:);
+
+BB_PV_DeAct_100P=mean(FB_PV_DeAct_100P,MQ);
+%
+% x = 1:17; 
+% N = size(BB_PV_DeAct_100P,1);
+% y = mean(BB_PV_DeAct_100P);
+% SEM = std(BB_PV_DeAct_100P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+%%
+jj=1;
+Trial=8;
+for jj=1:length(PVs)
+for ii=1:Trial
+MM_C(ii)=(max(Firings_Control{ii, jj}))
+MM_PV_Act_06P(ii)=(max(Firings_Control{ii, jj}))
+
+
+end
+Avg_C(jj)=mean(MM)
+end
+
+
+
+
+
+%%
+FF_PVs_Act_All =[
+    BB_Control, BB_PV_Act_06P, BB_PV_Act_12P, BB_PV_Act_18P, BB_PV_Act_25P, BB_PV_Act_50P, BB_PV_Act_75P, BB_PV_Act_100P
+    ];
+figure;
+plot(FF_PVs_Act_All)
+%
+x = 1:136; 
+N = size(FF_PVs_Act_All,1);
+y = mean(FF_PVs_Act_All);
+SEM = std(FF_PVs_Act_All) / sqrt(N);                    % Standard Error Of The Mean
+CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+errorbar(x, y, CI95,'o','LineWidth',2);
+grid off
+hold on;
+
+%%
+FF_PVs_Act_All_2 =[
+    BB_Control; BB_PV_Act_06P; BB_PV_Act_12P; BB_PV_Act_18P; BB_PV_Act_25P; BB_PV_Act_50P; BB_PV_Act_75P; BB_PV_Act_100P
+    ];
+figure;
+plot(FF_PVs_Act_All_2)
+xlabel ('Activation Power')
+ylabel('Firing Rates (HZ)')
+
+%%
+h=figure;
+amatrix = FF_PVs_Act_All_2'; 
+alpha = 0.3;
+[lineOut, fillOut] = stdshade(amatrix,alpha,'r',1:size(FF_PVs_Act_All_2),1)
+%stdshade(amatrix,alpha,acolor,F,smth)
+lineOut.Parent.XLabel.String = 'Activation';
+lineOut.Parent.YLabel.String = 'PVs Firing Rates (Hz)';
+lineOut.Parent.FontSize = 20;
+x = linspace(1,64);
+xticklabels({'0%','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8:64])
+box off
+set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+saveas(gca, 'PV_Act.eps','psc2');
+
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_Act.tif'));
+saveas(h,sprintf('PV_Act.fig'));
+saveas(h,sprintf('PV_Act.png'));
+saveas(gca,sprintf('PV_Act.eps','psc2'));
+
+%%
+FF_PVs_Act_All_Mean =[
+    mean(BB_Control), mean(BB_PV_Act_06P), mean(BB_PV_Act_12P), mean(BB_PV_Act_18P), mean(BB_PV_Act_25P), mean(BB_PV_Act_50P), mean(BB_PV_Act_75P), mean(BB_PV_Act_100P)
+    ];
+figure;
+plot(FF_PVs_Act_All_Mean)
+
+% x = 1:17; 
+% N = size(BB_PV_DeAct_100P,1);
+% y = mean(BB_PV_DeAct_100P);
+% SEM = std(BB_PV_DeAct_100P) / sqrt(N);                    % Standard Error Of The Mean
+% CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+% %errorbar(x, y, CI95,'o','LineWidth',3);
+% grid off
+% hold on;
+%%
+pop= length(FF_PVs_Act_All_Mean)
+xx=1:pop;
+yy=FF_PVs_Act_All_Mean;
+[f, gof]=fit(xx.',yy.', 'poly2') %linearinterp  'poly2' 'exp1'
+figure
+plot(f, xx,yy )
+%%
+FF_PVs_DeAct_All =[
+    BB_Control, BB_PV_DeAct_06P, BB_PV_DeAct_12P, BB_PV_DeAct_18P, BB_PV_DeAct_25P, BB_PV_DeAct_50P, BB_PV_DeAct_75P, BB_PV_DeAct_100P
+    ];
+figure;
+plot(FF_PVs_DeAct_All)
+%
+x = 1:136; 
+N = size(FF_PVs_DeAct_All,1);
+y = mean(FF_PVs_DeAct_All);
+SEM = std(FF_PVs_DeAct_All) / sqrt(N);                    % Standard Error Of The Mean
+CI95 = SEM * tinv(0.975, N-1);              % 95% Confidence Intervals
+errorbar(x, y, CI95,'o','LineWidth',2);
+grid off
+hold on;
+%%
+FF_PVs_DeAct_All_2 =[
+    BB_Control; BB_PV_DeAct_06P; BB_PV_DeAct_12P; BB_PV_DeAct_18P; BB_PV_DeAct_25P; BB_PV_DeAct_50P; BB_PV_DeAct_75P; BB_PV_DeAct_100P
+    ];
+figure
+plot(FF_PVs_DeAct_All_2)
+%%
+h=figure
+%hold on;
+amatrix = FF_PVs_DeAct_All_2'; 
+alpha = 0.3;
+[lineOut, fillOut] = stdshade(amatrix,alpha,'r',1:size(FF_PVs_DeAct_All_2),1)
+%stdshade(amatrix,alpha,acolor,F,smth)
+lineOut.Parent.XLabel.String = 'Suppression';
+x = linspace(1,64);
+xticklabels({'0%','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8:64])
+%lineOut.Parent.Xticks.String = '0 ';
+lineOut.Parent.YLabel.String = 'PVs Firing Rates (Hz)';
+lineOut.Parent.FontSize = 20;
+box off
+set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+saveas(gca, 'PV_Act.eps','psc2');
+
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_DeAct.tif'));
+saveas(h,sprintf('PV_DeAct.fig'));
+saveas(h,sprintf('PV_DeAct.png'));
+saveas(gca,sprintf('PV_DeAct.eps','psc2'));
+%%
+figure
+FF_PVs_DeAct_All_2_Mean =mean (FF_PVs_DeAct_All_2') 
+plot(FF_PVs_DeAct_All_2_Mean)
+%%
+pop= length(FF_PVs_DeAct_All_2_Mean)
+xx=1:pop;
+yy=FF_PVs_DeAct_All_2_Mean;
+[f, gof]=fit(xx.',yy.', 'poly2') %linearinterp  'poly2' 'exp1'
+figure
+plot(f, xx,yy )
+%%
+% FF_VIP_Act_All_2
+% FF_VIP_DeAct_All_2
+VEPSContr_PV_Act = FF_PVs_Act_All_2'; %Fitted_All;
+Time = 1:64;%linspace(1,64); %X;
+%x = linspace(1,64);
+mouse = 1:17;
+h=figure;
+y_PV_Act = mean(VEPSContr_PV_Act,1);
+potsem_PV_Act = std(VEPSContr_PV_Act)./sqrt(length(mouse));
+
+px1_PV_Act = [Time,fliplr(Time)]; 
+py1_PV_Act = [y_PV_Act-potsem_PV_Act fliplr(y_PV_Act+potsem_PV_Act)];
+%
+ 
+%patch(px1_PV_Act,py1_PV_Act,1,'FaceColor','r','EdgeColor','none'); alpha(1); axis tight;% make patch transparent
+patch(px1_PV_Act,py1_PV_Act,1,'FaceColor','r','EdgeColor','none','FaceAlpha',0.3); %axis tight;% make patch transparent
+%patch(px1_PV_Act,py1_PV_Act,1);
+%
+
+hold on
+plot(Time,y_PV_Act,'r','LineWidth',2);hold on;
+
+a = get(gca,'XTickLabel');  
+set(gca,'XTickLabel',a,'fontsize',20,'FontWeight','normal')
+
+% xticks([0 1 5 9 13 17 ])
+% xticklabels([ 0; 0;  45; 90; 135; 180])
+xlabel('PV Activation' )
+ylabel('PV Firing Rates (Hz)')
+box off
+axis tight;
+
+
+% h.Parent.XLabel.String = 'VIP Activation';
+% lineOut.Parent.YLabel.String = 'PYRs Firing Rates (Hz)';
+% lineOut.Parent.FontSize = 20;
+x = linspace(1,64);
+xticklabels({'0%','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8:64])
+box off
+set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+
+%saveas(gca, 'Sst_VIP_Act.eps','psc2');
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_PV_Act2.tif'));
+saveas(h,sprintf('PV_PV_Act2.fig'));
+saveas(h,sprintf('PV_PV_Act2.png'));
+saveas(gca,sprintf('PV_PV_Act2.eps','psc2'));
+%%
+% FF_VIP_Act_All_2
+% FF_VIP_DeAct_All_2
+VEPSContr_PV_Act = FF_PVs_DeAct_All_2'; %Fitted_All;
+Time = 1:64;%linspace(1,64); %X;
+%x = linspace(1,64);
+mouse = 1:17;
+h=figure;
+y_PV_Act = mean(VEPSContr_PV_Act,1);
+potsem_PV_Act = std(VEPSContr_PV_Act)./sqrt(length(mouse));
+
+px1_PV_Act = [Time,fliplr(Time)]; 
+py1_PV_Act = [y_PV_Act-potsem_PV_Act fliplr(y_PV_Act+potsem_PV_Act)];
+%
+ 
+%patch(px1_PV_Act,py1_PV_Act,1,'FaceColor','r','EdgeColor','none'); alpha(1); axis tight;% make patch transparent
+patch(px1_PV_Act,py1_PV_Act,1,'FaceColor','r','EdgeColor','none','FaceAlpha',0.3); %axis tight;% make patch transparent
+%patch(px1_PV_Act,py1_PV_Act,1);
+%
+
+hold on
+plot(Time,y_PV_Act,'r','LineWidth',2);hold on;
+
+a = get(gca,'XTickLabel');  
+set(gca,'XTickLabel',a,'fontsize',20,'FontWeight','normal')
+
+% xticks([0 1 5 9 13 17 ])
+% xticklabels([ 0; 0;  45; 90; 135; 180])
+xlabel('PV Suppression' )
+ylabel('PV Firing Rates (Hz)')
+box off
+axis tight;
+
+
+% h.Parent.XLabel.String = 'VIP Activation';
+% lineOut.Parent.YLabel.String = 'PYRs Firing Rates (Hz)';
+% lineOut.Parent.FontSize = 20;
+x = linspace(1,64);
+xticklabels({'0%','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8:64])
+box off
+set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+
+%saveas(gca, 'Sst_VIP_Act.eps','psc2');
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_PV_DeAct2.tif'));
+saveas(h,sprintf('PV_PV_DeAct2.fig'));
+saveas(h,sprintf('PV_PV_DeAct2.png'));
+saveas(gca,sprintf('PV_PV_DeAct2.eps','psc2'));
+
+%%
+%%
+A_C  =  mean(BB_Control');
+A_06 =  mean(BB_PV_Act_06P');
+A_12 =  mean(BB_PV_Act_12P');
+A_18 =  mean(BB_PV_Act_18P');
+A_25 =  mean(BB_PV_Act_25P');
+A_50 =  mean(BB_PV_Act_50P');
+A_75 =  mean(BB_PV_Act_75P');
+A_100 = mean(BB_PV_Act_100P');
+
+h=figure
+
+boxplot([A_C', A_06', A_12', A_18', A_25', A_50', A_75', A_100'   ])
+
+xticklabels({'C','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8])
+%lineOut.Parent.Xticks.String = '0 ';
+% lineOut.Parent.YLabel.String = 'PV Firing Rates (Hz)';
+% lineOut.Parent.FontSize = 20;
+a = get(gca,'XTickLabel');  
+set(gca,'XTickLabel',a,'fontsize',16,'FontWeight','normal')
+
+%xticks([ 1 2 3 4 5 6 7 8 ])
+%xticklabels({ 'Control'; '6%'; '12%'; '18%'; '25%'; '50%'; '75%'; '100%' }) %'PV_Act 6%'; 'PV_Act 12%'; 'PV_Act 18%'; 'PV_Act 25%'; 'PV_Act 50%'; 'PV_Act 75%'; 'PV_Act 100%'})
+%title('PV_A_c_t')
+xlabel('PV Activation' )
+ylabel('PV Firing Rates (Hz)')
+box off
+
+%set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_PV_Act_U.tif'));
+saveas(h,sprintf('PV_PV_Act_U.fig'));
+saveas(h,sprintf('PV_PV_Act_U.png'));
+saveas(gca,sprintf('PV_PV_Act_U.eps','psc2'));
+
+
+
+%%
+A_C  =  mean(BB_Control');
+A_06 =  mean(BB_PV_DeAct_06P');
+A_12 =  mean(BB_PV_DeAct_12P');
+A_18 =  mean(BB_PV_DeAct_18P');
+A_25 =  mean(BB_PV_DeAct_25P');
+A_50 =  mean(BB_PV_DeAct_50P');
+A_75 =  mean(BB_PV_DeAct_75P');
+A_100 = mean(BB_PV_DeAct_100P');
+
+h=figure
+
+boxplot([A_C', A_06', A_12', A_18', A_25', A_50', A_75', A_100'   ])
+
+xticklabels({'C','6%','12%','18%','25%','50%','75%','100%'})
+xticks([1 :8])
+%lineOut.Parent.Xticks.String = '0 ';
+% lineOut.Parent.YLabel.String = 'PV Firing Rates (Hz)';
+% lineOut.Parent.FontSize = 20;
+a = get(gca,'XTickLabel');  
+set(gca,'XTickLabel',a,'fontsize',16,'FontWeight','normal')
+
+%xticks([ 1 2 3 4 5 6 7 8 ])
+%xticklabels({ 'Control'; '6%'; '12%'; '18%'; '25%'; '50%'; '75%'; '100%' }) %'PV_DeAct 6%'; 'PV_DeAct 12%'; 'PV_DeAct 18%'; 'PV_DeAct 25%'; 'PV_DeAct 50%'; 'PV_DeAct 75%'; 'PV_DeAct 100%'})
+%title('PV_A_c_t')
+xlabel('PV Suppression' )
+ylabel('PV Firing Rates (Hz)')
+box off
+
+%set(gcf, 'Units', 'Inches', 'Position', [1, 1, 8, 8], 'PaperUnits', 'Inches', 'PaperSize', [7.25, 9.125])
+%saveas(h,sprintf('FIG.eps'));
+
+set(1,'renderer','painters')
+saveas(h,sprintf('PV_PV_DeAct_U.tif'));
+saveas(h,sprintf('PV_PV_DeAct_U.fig'));
+saveas(h,sprintf('PV_PV_DeAct_U.png'));
+saveas(gca,sprintf('PV_PV_DeAct_U.eps','psc2'));
+
+%%
+
+%run Main_Upd.m
+
+
+
