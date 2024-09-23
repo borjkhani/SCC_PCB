@@ -7,30 +7,46 @@
   <img src="https://github.com/borjkhani/SCC/blob/main/Model.png" alt="Alt text" width="400"/>
 </p>
 
-## Introduction
 
+## Introduction
 This repository contains the source code and documentation for building, simulating, and analyzing a single cortical column model. The model leverages cutting-edge tools in computational neuroscience to provide insights into cortical dynamics and neural network functionality. The primary tools used in this project include:
 
-__Brain Modeling Toolkit (BMTK):__ A Python-based software package for building and simulating large-scale neural network models. BMTK provides an interface for utilizing NEURON and NEST simulators, enabling researchers to create models ranging from detailed multi-compartment neuron networks to abstract population-level simulations. For more information, visit the [BMTK documentation](https://alleninstitute.github.io/bmtk/) and the [BMTK GitHub repository](https://github.com/AllenInstitute/bmtk).
+### Brain Modeling Toolkit (BMTK):
+A Python-based software package for building and simulating large-scale neural network models. BMTK provides an interface for utilizing [NEURON](https://neuron.yale.edu/neuron/) and [NEST](https://www.nest-simulator.org/) simulators, enabling researchers to create models ranging from detailed multi-compartment neuron networks to abstract population-level simulations. For more information, visit the [BMTK documentation](https://alleninstitute.github.io/bmtk/) and the [BMTK GitHub repository](https://github.com/AllenInstitute/bmtk). 
 
-__NEURON Simulators:__ NEURON was used for conducting the simulations of the network models. To learn more about it, visit [NEURON documentation](https://nrn.readthedocs.io/en/8.2.6/).
+### NEURON Simulators:
+NEURON was used for conducting the simulations of the network models. To learn more about it, visit the [NEURON documentation](https://nrn.readthedocs.io/en/8.2.6/).
 
-__SONATA Format:__ Model outputs and network structures were stored using the SONATA (Standardized Ontology of Neural Assemblies) data format, a widely used standard for large-scale neural simulations. For more details on SONATA, refer to the [SONATA GitHub](https://github.com/AllenInstitute/sonata) page.
+### SONATA Format:
+Model outputs and network structures were stored using the SONATA (Standardized Ontology of Neural Assemblies) data format, a widely used standard for large-scale neural simulations. For more details on SONATA, refer to the [SONATA GitHub](https://github.com/AllenInstitute/sonata) page.
 
-__Visual Neuronal Dynamics (VND):__ VND was used to visualize the cortical column's structure and dynamics. It provides 3D visualization capabilities for neuronal networks and supports the SONATA format, making it ideal for examining and presenting neuronal simulations. VND is a repackaged adaptation of VMD, specifically tailored for neuroscience. More information can be found on the [VND website](https://www.ks.uiuc.edu/Research/vnd/).
+### Visual Neuronal Dynamics (VND):
+VND was used to visualize the cortical column's structure and dynamics. It provides 3D visualization capabilities for neuronal networks and supports the SONATA format, making it ideal for examining and presenting neuronal simulations. VND is a repackaged adaptation of VMD, specifically tailored for neuroscience. More information can be found on the [VND website](https://www.ks.uiuc.edu/Research/vnd/).
 
-__MATLAB:__ The data analysis, including post-processing of simulation results and statistical analysis, was performed in [MATLAB](https://www.mathworks.com/). MATLAB's extensive toolbox and capabilities were leveraged to analyze the output data, providing detailed insights into the neural dynamics and network behaviors.
+### MATLAB:
+The data analysis, including post-processing of simulation results and statistical analysis, was performed in [MATLAB](https://www.mathworks.com/). MATLAB's extensive toolbox and capabilities were leveraged to analyze the output data, providing detailed insights into the neural dynamics and network behaviors.
 
 This repository showcases the simulation pipeline, from building the network with BMTK to visualizing the output using VND, and final data analysis in MATLAB. All essential tools and detailed guides are available through their respective links, providing the necessary resources for others to replicate or build upon this work.
 
-## User guide 
-To run the codes, you need to install BMTK and Neuron simulator. The latest version and the installiation guide can be found [here](https://alleninstitute.github.io/bmtk/installation.html).  
+## User Guide
+### Prerequisites
+1. Install __BMTK__ and __NEURON__ simulators. The latest versions and installation guides can be found [here](https://alleninstitute.github.io/bmtk/installation.html).
 
-You can access the code for running simulations of a single trial under the control condition [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb). This notebook provides a comprehensive example of how to simulate baseline activity without any external modulation. Additionally, if you're interested in exploring the activation or suppression of interneurons, a separate trial simulation code can be found in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). This script models how changes in interneuron dynamics affect the overall network behavior.
+2. Install __MATLAB__ for analyzing output data and running post-processing scripts. Installation guide can be found [here](https://www.mathworks.com/help/install/install-products.html). 
 
-Once the simulations are complete, you can perform detailed analysis using the tools provided in the analysis folder of the repository. For example, you can run a full analysis related to the control condition by following the instructions. This script compiles and runs all the necessary steps for analyzing the control condition simulations, providing insights into network activity and other key metrics. Further analysis scripts for other conditions and detailed statistical comparisons are also available [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m).
+## Running the Model
+To run a single trial simulation of baseline cortical column activity under the control condition, you can access the code [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb). This Jupyter notebook provides a comprehensive example of simulating baseline activity without external modulation.
 
-Please feel free to explore the code, contribute, or contact me with any questions. 
+For additional simulations where interneurons are either activated or suppressed, refer to the corresponding script in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). These scripts model how changes in interneuron dynamics affect the network’s overall behavior.
+
+## Data Analysis
+Once the simulations are complete, you can perform detailed analysis using the tools provided in the __Analysis__ folder. For example, you can analyze the control condition data by following the instructions in the *Run_All.m* script, which compiles and runs all the necessary steps for processing the simulation results and extracting key metrics. You can find the script [here](https://github.com/borjkhani/SCC_PCB/blob/main/Analysis/Control%20Analysis/Run_All.m).e.
+
+Additional analysis scripts for different conditions and statistical comparisons are also available in the __Analysis__ section of the repository.
+
+Please feel free to explore the code, contribute, or contact me with any questions.
+
+
 
 ## Acknowledgments
 This work was supported by The "[International Centre for Translational Eye Research (ICTER)](https://icter.pl/)". Project is carried out within the MAB FENG action 02.01. of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund, European Funds for Smart Economy, agreement no. FENG.02.01-IP.05-T005/23.
