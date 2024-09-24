@@ -1,7 +1,7 @@
 % Clear workspace and command window
 clear;
 clc;
-close all;
+% close all;
 
 % Load data
 load('HWHH_Results.mat');

@@ -1,6 +1,6 @@
 clc;
 clear;
-close all;
+%close all;
 
 % Load number of trials
 load NN.mat
@@ -253,3 +253,5 @@ hold off;
 
 save All_cells_Control.mat All_cells_Control;
 plot(All_cells_Control{2, 1});
+
+close all

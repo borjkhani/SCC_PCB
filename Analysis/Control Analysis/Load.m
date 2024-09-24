@@ -1,6 +1,6 @@
 clc
 clear
-close all
+% close all
 
 %Neuron_IDs=480;
 NN=8; % Number of Trials for each orientation

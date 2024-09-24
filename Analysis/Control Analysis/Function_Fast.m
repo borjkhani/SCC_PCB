@@ -2,7 +2,7 @@ clearvars -except H_C H_PV_Act_06P H_PV_Act_12P H_PV_Act_18P H_PV_Act_25P H_PV_A
 
 %clear
 % clc
-close all
+% close all
 
 run Cell_IDs.m
 PYRs=PYRs';
