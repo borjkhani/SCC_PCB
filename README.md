@@ -36,6 +36,9 @@ This repository showcases the simulation pipeline, from building the network wit
 
 ## Running the Model
 To run a single trial simulation of baseline cortical column activity under the control condition, you can access the code [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb). This Jupyter notebook provides a comprehensive example of simulating baseline activity without external modulation.
+before running any of the simulations make sure that *components* folder, *config.bionetFT1.flash.json* file, and *FT1.ipynb* file be in your running path. the output of the simulation are stored in the *inputsFT1*, *networkFT1*, and *output_flashFT1* folders.  
+
+for each trial you can change the the name of the files like this that for example for creating the data for the second trial of simulation you can either re-run the same simulation but at the end change the output folders name and save it or for simultanous simulations you can change the name of the folders as follows for the second trail: *FT2.ipynb*, and *config.bionetFT2.flash*. it is apparent that if you decided to change the names of the trials you should change the nams also inside the FT1.ipynb code. an example code for this can be found [here]().     
 
 For additional simulations where interneurons are either activated or suppressed, refer to the corresponding script in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). These scripts model how changes in interneuron dynamics affect the network’s overall behavior.
 
