@@ -37,7 +37,7 @@ Before you begin, ensure that you have the necessary software installed and file
 __a. BMTK and NEURON Simulators__
 - __BMTK (Brain Modeling ToolKit)__ and __NEURON__ are essential for running the simulations.
 
-- Follow the installation guide provided by the Allen Institute [here]() to install the latest versions.
+- Follow the installation guide provided by the Allen Institute [here](https://alleninstitute.github.io/bmtk/installation.html) to install the latest versions.
 
 ### Brief Installation Steps:
 
