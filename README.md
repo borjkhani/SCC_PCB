@@ -168,7 +168,7 @@ For additional simulations where interneurons are either activated or suppressed
 .
 .
 .
-
+.
 
 # Analyzing Simulation Results with MATLAB
 
