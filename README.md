@@ -72,7 +72,9 @@ python -c "import bmtk; print('BMTK installed')"
 - __Jupyter Notebook__: To execute and interact with the *.ipynb* files.
 
 - Install via *pip*:
-- *pip install jupyter*
+'''bash
+pip install jupyter*
+'''
 
 ## Setting Up the Simulation Environment
 __1. Clone the Repository__
