@@ -127,7 +127,7 @@ To run a single trial simulation of baseline cortical column activity under the 
 
 - Start Jupyter Notebook:
 ```bash
-  jupyter notebook*
+  jupyter notebook
 ```
 
 - Open `FT1.ipynb` from the Jupyter interface.
@@ -182,13 +182,30 @@ For a third trial, create `FT3.ipynb` and `config.bionetFT3.flash.json`, updatin
 ## Example Code
 An example of setting up and running multiple trials can be found [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb).
 
-.
-.
-.
-For additional simulations where interneurons are either activated or suppressed, refer to the corresponding script in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). These scripts model how changes in interneuron dynamics affect the network’s overall behavior.
+## Modulating Interneuron Activity
+
+Here, you will find scripts that simulate the effects of either activating or suppressing interneurons. These scripts model how changes in interneuron dynamics influence the overall behavior of the column. You can access these simulations by navigating to the corresponding folder in the repository [here]().
+
+### Customizing Stimulation Intensity
+
+Each script is designed to activate specific interneuron populations (e.g., PV, SST, VIP) by adjusting stimulation intensity. For example, in the PV activation script, PV interneurons are activated with the maximum stimulation power. To modify the intensity of this activation, you can adjust the parameter Amp_Stim in the [code](https://github.com/borjkhani/SCC_PCB/blob/main/Model/PV_Act_100P/FT1.ipynb). For instance, if the original value is `Amp_Stim = 25`, changing it to `Amp_Stim = 25 * 0.5` will reduce the stimulation power to 50% of the maximum intensity. This same approach can be applied to other inhibitory interneurons.
+
+### Example: SST Interneuron Stimulation
+
+Similarly, for SST interneurons, you can modify the activation intensity by adjusting the Amp_Stim value [here](http://localhost:8888/notebooks/Documents/Github/SCC_PCB/Model/SST_Act_100P/FT1.ipynb). In the SST activation script, the maximum stimulation power might be defined as`Amp_Stim = 8`. To activate these cells at 75% intensity, you would change this value to `Amp_Stim = 8 * 0.75`.
+
+This method is applicable across different cell types, allowing you to simulate various scenarios of interneuron activation or suppression.
+
+### Understanding the Approach
+
+As described in **Figure 3F** of the publication, we explore the activation of SST, PV, and VIP interneurons by systematically varying the stimulation powers. To achieve this, virtual excitatory cells are used to stimulate each inhibitory interneuron population. The stimulation power is gradually increased from baseline (control) conditions to the point where nearly all neurons in the target population are consistently firing. The intensity at which maximum population activation is reached is considered the maximum stimulation power.
+
+It’s important to note that excessive stimulation beyond this maximum can lead to overexcitation, causing unintended silencing of the cell population. This effect contrasts with the intended experimental conditions and should be avoided.
+
+By following these instructions, you can tailor simulations to explore how varying levels of interneuron activity impact column dynamics.
 
 
-for example [here](https://github.com/borjkhani/SCC_PCB/blob/main/Model/PV_Act_100P/FT1.ipynb), the PV interneurons are activated with the maximum power of stimulation 
+
 
 .
 .
