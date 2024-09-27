@@ -109,6 +109,7 @@ pip install numpy matplotlib neuron bmtk jupyter*
 ```
 
 __5. Verify Installations__
+
 Run the following commands to ensure all packages are correctly installed:
 
 ```bash
