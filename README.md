@@ -49,11 +49,15 @@ pip install neuron
 
 - __Install BMTK__:
 
-*pip install bmtk*
+```bash
+pip install bmtk
+```
 
 - __Verify Installations__:
-*python -c "import neuron; print('NEURON installed')"* 
-*python -c "import bmtk; print('BMTK installed')"*
+```bash
+python -c "import neuron; print('NEURON installed')" 
+python -c "import bmtk; print('BMTK installed')"
+```
 
  __b. MATLAB__
  
