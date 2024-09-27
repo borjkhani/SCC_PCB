@@ -150,6 +150,7 @@ To perform multiple simulations (trials), you can create copies of the original 
 __Re-run the Simulation:__
 - After each simulation, manually rename the output folders to preserve the results.
   - For example, after the first run, rename `output_flashFT1` to `output_flash_trial1`.
+
 __Run the Simulation Again:__
 - Execute `FT1.ipynb` again for the next trial.
 - Repeat the renaming process after each run.
