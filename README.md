@@ -73,33 +73,40 @@ python -c "import bmtk; print('BMTK installed')"
 
 - Install via *pip*:
 ```bash
-pip install jupyter*
+pip install jupyter
 ```
 
 ## Setting Up the Simulation Environment
 __1. Clone the Repository__
 Clone this repository to your local machine:
-
-*git clone https://github.com/borjkhani/SCC_PCB.git*
-*cd SCC_PCB*
+```bash
+git clone https://github.com/borjkhani/SCC_PCB.git
+cd SCC_PCB
+```
 
 __2. Organize Simulation Files__
+
 Ensure the following files and folders are present in your working directory:
 
-- *components* __Folder__: Contains essential components required for the simulation, such as neuron models and synapse definitions.
-- *config.bionetFT1.flash.json*: A configuration file specifying parameters and settings for the simulation.
-- *FT1.ipynb*: The Jupyter notebook that you will execute to run the simulation.
+- `components` __Folder__: Contains essential components required for the simulation, such as neuron models and synapse definitions.
+- `config.bionetFT1.flash.json`: A configuration file specifying parameters and settings for the simulation.
+- `FT1.ipynb`: The Jupyter notebook that you will execute to run the simulation.
 
-__3. Create a Virtual Environment (Optional but Recommended)__
+__3. Create a Virtual Environment (Optional but Recommended)__ 
+
 Creating a virtual environment helps manage dependencies without affecting system-wide packages.
-
-*python -m venv sim_env*
-*source sim_env/bin/activate*  # On Windows, use `sim_env\Scripts\activate`
+```bash
+python -m venv sim_env
+source sim_env/bin/activate # On Windows, use `sim_env\Scripts\activate`
+```
 
 __4. Install Required Python Packages__
+
 With the virtual environment activated, install necessary Python libraries:
 
-*pip install numpy matplotlib neuron bmtk jupyter*
+```bash
+pip install numpy matplotlib neuron bmtk jupyter*
+```
 
 __5. Verify Installations__
 Run the following commands to ensure all packages are correctly installed:
