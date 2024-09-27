@@ -44,9 +44,8 @@ __a. BMTK and NEURON Simulators__
 - __Install NEURON__:
 
 ```bash
-*pip install neuron*
+pip install neuron
 ```
-
 
 - __Install BMTK__:
 
