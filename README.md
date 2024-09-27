@@ -186,6 +186,10 @@ An example of setting up and running multiple trials can be found [here](https:/
 .
 .
 For additional simulations where interneurons are either activated or suppressed, refer to the corresponding script in the repository [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model). These scripts model how changes in interneuron dynamics affect the network’s overall behavior.
+
+
+for example [here](https://github.com/borjkhani/SCC_PCB/blob/main/Model/PV_Act_100P/FT1.ipynb), the PV interneurons are activated with the maximum power of stimulation 
+
 .
 .
 .
