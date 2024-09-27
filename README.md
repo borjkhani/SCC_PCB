@@ -205,13 +205,6 @@ It’s important to note that excessive stimulation beyond this maximum can lead
 By following these instructions, you can tailor simulations to explore how varying levels of interneuron activity impact column dynamics.
 
 
-
-
-.
-.
-.
-.
-
 # Analyzing Simulation Results with MATLAB
 
 ## Data Analysis
