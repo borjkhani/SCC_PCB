@@ -88,7 +88,7 @@ __2. Organize Simulation Files__
 
 Ensure the following files and folders are present in your working directory:
 
-- `components` __Folder__: Contains essential components required for the simulation, such as neuron models and synapse definitions.
+- `components` folder: Contains essential components required for the simulation, such as neuron models and synapse definitions.
 - `config.bionetFT1.flash.json`: A configuration file specifying parameters and settings for the simulation.
 - `FT1.ipynb`: The Jupyter notebook that you will execute to run the simulation.
 
@@ -111,10 +111,12 @@ pip install numpy matplotlib neuron bmtk jupyter*
 __5. Verify Installations__
 Run the following commands to ensure all packages are correctly installed:
 
-*python -c "import numpy; print('NumPy installed')"*
-*python -c "import matplotlib; print('Matplotlib installed')"*
-*python -c "import neuron; print('NEURON installed')"*
-*python -c "import bmtk; print('BMTK installed')"*
+```bash
+python -c "import numpy; print('NumPy installed')"
+python -c "import matplotlib; print('Matplotlib installed')"
+python -c "import neuron; print('NEURON installed')"
+python -c "import bmtk; print('BMTK installed')"
+```
 
 ## Running a Single Trial Simulation
 To run a single trial simulation of baseline cortical column activity under the control condition:
@@ -123,21 +125,23 @@ To run a single trial simulation of baseline cortical column activity under the 
 - Navigate to your working directory in the terminal.
 
 - Start Jupyter Notebook:
-  *jupyter notebook*
+```bash
+  jupyter notebook*
+```
 
-- Open *FT1.ipynb* from the Jupyter interface.
+- Open `FT1.ipynb` from the Jupyter interface.
 
 ### 2. Execute the Notebook
-Run the notebook cells sequentially by selecting each cell and clicking the "Run" button or using the shortcut *Shift + Enter*.
+Run the notebook cells sequentially by selecting each cell and clicking the "Run" button or using the shortcut `Shift + Enter`.
 The notebook includes code for setting up the network, running the simulation, and analyzing the results.
 Monitor the output for any errors or prompts.
 
 ### 3. Simulation Outputs
 The simulation generates outputs stored in the following folders:
 
-*inputsFT1*: Contains input configurations for the simulation.
-*networkFT1*: Stores network data, including neuron and synapse information.
-*output_flashFT1*: Holds the simulation results, such as spike trains and recorded data.
+`inputsFT1`: Contains input configurations for the simulation.
+`networkFT1`: Stores network data, including neuron and synapse information.
+`output_flashFT1`: Holds the simulation results, such as spike trains and recorded data.
 
 ## Running Multiple Trials
 To perform multiple simulations (trials), you can create copies of the original files with new names to prevent overwriting data.
@@ -145,9 +149,9 @@ To perform multiple simulations (trials), you can create copies of the original 
 ### Option 1: Sequential Simulations with Renamed Output Folders
 __Re-run the Simulation:__
 - After each simulation, manually rename the output folders to preserve the results.
-- For example, after the first run, rename *output_flashFT1* to *output_flash_trial1*.
+  - For example, after the first run, rename `output_flashFT1` to `output_flash_trial1`.
 __Run the Simulation Again:__
-- Execute *FT1.ipynb* again for the next trial.
+- Execute `FT1.ipynb` again for the next trial.
 - Repeat the renaming process after each run.
 
 ### Option 2: Simultaneous Simulations with Renamed Files and Folders
@@ -155,23 +159,23 @@ To run simulations simultaneously or streamline the process:
 
 __1. Copy and Rename Files:__
 
-- Duplicate *FT1.ipynb* and rename it to *FT2.ipynb*.
-- Copy *config.bionetFT1.flash.json* and rename it to *config.bionetFT2.flash.json*.
-- 
+  - Duplicate `FT1.ipynb` and rename it to `FT2.ipynb`.
+  - Copy `config.bionetFT1.flash.json` and rename it to `config.bionetFT2.flash.json`.
+  
 __2. Update File References in the Notebook:__
 
-- Open *FT2.ipynb*.
-Use the "Find and Replace" feature to replace all instances of *FT1* with *FT2* in code cells specifying file paths.
-Ensure outputs are directed to *inputsFT2*, *networkFT2*, and *output_flashFT2*.
+- Open `FT2.ipynb`.
+Use the "Find and Replace" feature to replace all instances of `FT1` with `FT2` in code cells specifying file paths.
+Ensure outputs are directed to `inputsFT2`, `networkFT2`, and `output_flashFT2`.
 
 __3. Run the New Simulation:__
 
-- Execute *FT2.ipynb* in Jupyter Notebook.
+- Execute `FT2.ipynb` in Jupyter Notebook.
 The simulation will run independently, generating outputs in the new directories.
 
 __4. Repeat for Additional Trials:__
 
-For a third trial, create *FT3.ipynb* and *config.bionetFT3.flash.json*, updating references accordingly.
+For a third trial, create `FT3.ipynb` and `config.bionetFT3.flash.json`, updating references accordingly.
 
 ## Example Code
 An example of setting up and running multiple trials can be found [here](https://github.com/borjkhani/SCC_PCB/tree/main/Model/Control/FT1.ipynb).
