@@ -54,7 +54,7 @@ pip install bmtk
 ```
 
 - __Verify Installations__:
-```bash
+```bash 
 python -c "import neuron; print('NEURON installed')" 
 python -c "import bmtk; print('BMTK installed')"
 ```
@@ -72,9 +72,9 @@ python -c "import bmtk; print('BMTK installed')"
 - __Jupyter Notebook__: To execute and interact with the *.ipynb* files.
 
 - Install via *pip*:
-'''bash
+```bash
 pip install jupyter*
-'''
+```
 
 ## Setting Up the Simulation Environment
 __1. Clone the Repository__
