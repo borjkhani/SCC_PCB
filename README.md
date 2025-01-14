@@ -264,17 +264,6 @@ If you use this code in your research, please cite it as follows:
 > Borjkhani, M. (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
 > [https://doi.org/10.5281/zenodo.14646030](https://doi.org/10.5281/zenodo.14646030)
 
-You can also use the following BibTeX entry:
-
-```bibtex
-@software{borjkhani_SCC_PCB,
-  author = {Borjkhani, Mehdi},
-  title = {borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)},
-  year = {2025},
-  publisher = {Zenodo},
-  doi = {10.5281/zenodo.14646030},
-  url = {https://doi.org/10.5281/zenodo.14646030}
-}
 
 
 
