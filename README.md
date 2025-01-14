@@ -252,6 +252,11 @@ Additional analysis scripts for different conditions and statistical comparisons
 .
 Please feel free to explore the code, contribute, or contact me with any questions.
 
+### DOI
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14646030.svg)](https://doi.org/10.5281/zenodo.14646030)
+
+
 ## Acknowledgments
 This work was supported by The "[International Centre for Translational Eye Research (ICTER)](https://icter.pl/)". Project is carried out within the MAB FENG action 02.01. of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund, European Funds for Smart Economy, agreement no. FENG.02.01-IP.05-T005/23.
 
