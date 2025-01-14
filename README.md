@@ -261,7 +261,8 @@ borjkhani. (2025). borjkhani/SCC_PCB: First release of the V1 cortical model (v1
 
 If you use this code in your research, please cite it as follows:
 
-> Borjkhani, M. (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
+> Borjkhani, M. et al (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14646030.svg)](https://doi.org/10.5281/zenodo.14646030)
 > [https://doi.org/10.5281/zenodo.14646030](https://doi.org/10.5281/zenodo.14646030)
 
 
