@@ -257,6 +257,27 @@ borjkhani. (2025). borjkhani/SCC_PCB: First release of the V1 cortical model (v1
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14646030.svg)](https://doi.org/10.5281/zenodo.14646030)
 
 
+## 📚 Citation
+
+If you use this code in your research, please cite it as follows:
+
+> Borjkhani, M. (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
+> [https://doi.org/10.5281/zenodo.14646030](https://doi.org/10.5281/zenodo.14646030)
+
+You can also use the following BibTeX entry:
+
+```bibtex
+@software{borjkhani_SCC_PCB,
+  author = {Borjkhani, Mehdi},
+  title = {borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)},
+  year = {2025},
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.14646030},
+  url = {https://doi.org/10.5281/zenodo.14646030}
+}
+
+
+
 ## Acknowledgments
 This work was supported by The "[International Centre for Translational Eye Research (ICTER)](https://icter.pl/)". Project is carried out within the MAB FENG action 02.01. of the Foundation for Polish Science co-financed by the European Union under the European Regional Development Fund, European Funds for Smart Economy, agreement no. FENG.02.01-IP.05-T005/23.
 
