@@ -269,8 +269,9 @@ National Science Center, Poland (2022/47/B/NZ5/03023) for ATF
 
 If you use this code in your research, please cite it as follows:
 
-> Borjkhani, M. et al (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14646030.svg)](https://doi.org/10.5281/zenodo.14646030)
+Borjkhani, M. et al (2025). **borjkhani/SCC_PCB: First release of the V1 cortical model (v1.0)**. Zenodo.  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14646030.svg)](https://doi.org/10.5281/zenodo.14646030)
+
  
 
 ![FNP](https://github.com/user-attachments/assets/916fa227-0e8d-473e-901f-e15159b10bc3)
